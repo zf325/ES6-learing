@@ -127,7 +127,7 @@ js 在解释执行之前，引擎会扫描一遍代码，遇见 var 定义的变
 
 2. 使用更简便的方法，定义迭代变量使用 let 或 const 替代。
 
-    let ,const 每次die
+    let ,const 每次迭代的时候都会重新绑定新的作用域。
 
 ```javascript
 
